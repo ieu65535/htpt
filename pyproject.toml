@@ -1,0 +1,8 @@
+[project]
+name = "htpt"
+version = "0.1.0"
+description = "An HTTP service that is, permanently, a teapot"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.146.0",
+]
